@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<title>Warm Up Exercise #1</title>
+
+		<script>
+			//your JS code goes here
+            var doNotCopy = function() { 
+                alert("DON'T COPY ME");
+            }
+            var headerFunction = Function() { 
+            alert("Stop copyright my header.");
+            }
+            var headerFunctionTwo = function() { 
+            alert("Stop copyright this");
+            }
+		</script>
+		
+	</head>
+
+	<!-- for the body, when copied, it calls doNotCopy() function -->
+    <body oncopy = "doNotCopy()">
+
+		<h1> oncopy</h1>
+
+		<h3>On this page:</h3>
+
+		<ul>
+			<li>All the text,</li>
+			<li>From this,</li>
+			<li>to this,</li>
+			<li>to that.</li>
+		</ul>
+
+		<p>Should yell at the user if they try to copy it!</p>
+		
+	</body>
+
+</html>
